@@ -212,7 +212,3 @@ themeButton.addEventListener("click", () => {
 });
 
 
-const year = new Date().getFullYear();
-const footer = document.createElement("footer__copy");
-footer.innerHTML = `&copy; ${year} Your Company Name`;
-document.body.appendChild(footer);
