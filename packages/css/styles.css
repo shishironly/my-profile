@@ -334,6 +334,7 @@ img {
   display: none;
 }
 
+
 .home__scroll-button {
   color: var(--first-color);
   transition: 0.3s;
@@ -359,7 +360,7 @@ img {
 }
 /*==================== BUTTONS ====================*/
 
-.button {
+.button{
   display: inline-block;
   background-color: var(--first-color);
   color: #ffff;
@@ -816,7 +817,8 @@ img {
 
 .project__bg {
   background-color: var(--first-color-second);
-  padding-top: 3rem;
+  padding:
+  2rem;
 }
 
 .project__title {
@@ -1339,3 +1341,28 @@ justify-content: center;
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+
+
+button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #ffff;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+  font-size: 1.2rem;
+  /* margin-left: var(--mb-0-5); */
+  transition: 0.3s;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--first-color-alt);
+  cursor: pointer;
+}
+
+button {
+  padding: 1.15rem 1rem;
+}
+
+
